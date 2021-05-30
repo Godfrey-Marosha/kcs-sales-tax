@@ -20,6 +20,21 @@ public class Main {
                 "shopping-baskets/input2.txt",
                 "shopping-baskets/input3.txt"
         };
-    }
-    
+
+        String[] queuedShoppingBasketFiles = (defaultShoppingBaskets.length > 0) ?defaultShoppingBaskets : defaultShoppingBaskets;
+
+        for (String shoppingbasket : queuedShoppingBasketFiles) {
+            ItemsInput rScanner = new ItemsInput(shoppingbasket);
+            Purchase purchase = rScanner.getPurchase();
+            TaxTotalCalc calculate = new TaxTotalCalc(purchase.getPurchased());
+            ItemsReceipt display = new ItemsReceipt();
+            for(Item item: purchase.getPurchased()){
+                display.purchaseList(item);
+            }
+            display.salesTax(calculate.getTaxTotal());
+            display.totalSale(calculate.getSaleTotal());
+      }
+  }
+
 }
+
