@@ -1,4 +1,16 @@
-import java.util.regex.Pattern;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kcs.sales.taxes;
+
+/**
+ *
+ * @author Godfrey Marosha
+ */
+ 
+ import java.util.regex.Pattern;
 
 public class Item {
     private Boolean isImport = false;
