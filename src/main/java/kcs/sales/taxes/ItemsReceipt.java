@@ -1,4 +1,16 @@
-public class ItemsReceipt {
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kcs.sales.taxes;
+
+/**
+ *
+ * @author Godfrey Marosha
+ */
+ 
+ public class ItemsReceipt {
     private String itemFormat = "%1$-40s %2$6.2f %n";
     private String taxFormat = "%1$40s %2$6.2f %n";
     private String totalFormat = "%1$40s %2$6.2f %n%n%n";

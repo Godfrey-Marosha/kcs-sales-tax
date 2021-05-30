@@ -9,6 +9,7 @@ package kcs.sales.taxes;
  *
  * @author Godfrey Marosha
  */
+
 public class Main {
 
     /**
@@ -35,6 +36,4 @@ public class Main {
             display.totalSale(calculate.getSaleTotal());
       }
   }
-
 }
-

@@ -1,7 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kcs.sales.taxes;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+/**
+ *
+ * @author Godfrey Marosha
+ */
 
 public class ItemsInput {
     private Purchase purchase;

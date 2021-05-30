@@ -10,7 +10,7 @@ package kcs.sales.taxes;
  * @author Godfrey Marosha
  */
  
- import java.util.regex.Pattern;
+import java.util.regex.Pattern;
 
 public class Item {
     private Boolean isImport = false;
