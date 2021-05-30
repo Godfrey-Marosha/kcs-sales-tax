@@ -7,7 +7,7 @@ package kcs.sales.taxes;
 
 /**
  *
- * @author Frey Visual
+ * @author Godfrey Marosha
  */
 public class Main {
 
@@ -15,7 +15,11 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        String[] defaultShoppingBaskets = {
+                "shopping-baskets/input1.txt",
+                "shopping-baskets/input2.txt",
+                "shopping-baskets/input3.txt"
+        };
     }
     
 }
