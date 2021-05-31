@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Frey Visual
+ * @author Godfrey Marosha (PC name: Frey Visual)
  */
 public class BookTest {
     
@@ -36,10 +36,4 @@ public class BookTest {
     @After
     public void tearDown() {
     }
-
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
 }
